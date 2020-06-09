@@ -13,12 +13,11 @@ def mixed_fraction(s):
             fracao = str(Fraction(int(resto),int(d)))
         else:fracao = ' ' + str(Fraction(int(resto),int(d)))
     else:fracao = ''        
-    return (signal+str(num1)+fracao)
+    return print(signal+str(num1)+fracao)
 mixed_fraction('42/9')    # '4 2/3'
 mixed_fraction('6/3')     #'2'
 mixed_fraction('4/6')     #'2/3'
 mixed_fraction('0/18891') #'0'
 mixed_fraction('-10/7')   #'-1 3/7'
 mixed_fraction('-22/-7')  #'3 1/7'
-
-#https://www.codewars.com/kata/556b85b433fb5e899200003f/train/python
+# https://www.codewars.com/kata/556b85b433fb5e899200003f/train/python
