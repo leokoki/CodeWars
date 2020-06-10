@@ -16,7 +16,6 @@ Your code must return true or false depending upon whether the given number is a
 Error checking for text strings or other invalid inputs is not required, only valid integers will be passed into the function.
 """
 # https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/python
-
 def narcissistic(value):
   square = []
   n = len(str(value))
