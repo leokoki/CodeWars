@@ -2,7 +2,6 @@
 Task
 
 Given a string representing a simple fraction x/y, your function must return a string representing the corresponding mixed fraction in the following format:
-
 [sign]a b/c
 
 where a is integer part and b/c is irreducible proper fraction. There must be exactly one space between a and b/c. Provide [sign] only if negative (and non zero) and only at the beginning of the number (both integer part and fractional part must be provided absolute).
